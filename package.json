@@ -1,0 +1,15 @@
+{
+  "name": "kon-ahe-imposter",
+  "version": "1.0.0",
+  "description": "कोण आहे इम्पोस्टर? — मराठी ऑनलाइन मल्टीप्लेअर पार्टी गेम",
+  "main": "server/index.js",
+  "private": true,
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server/index.js",
+    "test": "node --disable-warning=ExperimentalWarning test/game.test.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}

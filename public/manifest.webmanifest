@@ -1,0 +1,12 @@
+{
+  "name": "कोण आहे इम्पोस्टर?",
+  "short_name": "इम्पोस्टर",
+  "description": "मराठी ऑनलाइन मल्टीप्लेअर पार्टी गेम",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0b0620",
+  "theme_color": "#0b0620",
+  "lang": "mr",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

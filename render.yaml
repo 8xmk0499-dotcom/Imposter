@@ -1,0 +1,8 @@
+# Render Blueprint: GitHub repo जोडून "New → Blueprint" निवडल्यास सर्व सेटिंग्ज आपोआप भरतात.
+services:
+  - type: web
+    name: kon-ahe-imposter
+    runtime: docker
+    plan: free
+    healthCheckPath: /healthz
+    autoDeploy: true
